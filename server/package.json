@@ -1,0 +1,27 @@
+{
+  "type": "commonjs",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend rsvp form",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "express",
+    "mongodb"
+  ],
+  "author": "Lindokuhle",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "gulp-imagemin": "^7.1.0",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.2",
+    "nodemon": "^2.0.16"
+  }
+}
